@@ -1,10 +1,11 @@
-# facebok# git clone https://github.com/XytaId/fie-peler
-Note:
+# git clone https://github.com/XytaId/facebok
 
-$ cd fie-peler
+```Note:```
 
-$ python file.py
+```$ cd fie-peler```
 
-File open source tinggal rekod asal jangan di premin
+```$ python file.py```
 
-Methode b api mainin uanya aja
+```File open source tinggal rekod asal jangan di premin```
+
+```Methode b api mainin uanya aja```
